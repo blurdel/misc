@@ -3,7 +3,7 @@
 Version=1.0
 Type=Application
 Terminal=false
-Exec=/home/david/Programs/sts-4.10.0.RELEASE/SpringToolSuite4
+Exec=/home/david/Programs/sts-4.17.1.RELEASE/SpringToolSuite4
 Name=Spring Tool Suite
 Comment=Spring Tool Suite
-Icon=/home/david/Programs/sts-4.10.0.RELEASE/icon.xpm
+Icon=/home/david/Programs/sts-4.17.1.RELEASE/icon.xpm
