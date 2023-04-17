@@ -10,5 +10,5 @@ if [[ ! -z ${pid} ]]; then
 fi
 
 cd ~/Programs/jenkins-jar
-JENKINS_HOME=~/.jenkins  java -Dhudson.plugins.git.GitSCM.ALLOW_LOCAL_CHECKOUT=true -jar jenkins.war &
+JENKINS_HOME=~/.jenkins  java -Dhudson.plugins.git.GitSCM.ALLOW_LOCAL_CHECKOUT=true -jar jenkins.war --httpPort=8888 &
 
