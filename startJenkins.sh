@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# sudo crontab -e
+# @reboot /home/jenkins/bin/startJenkins.sh
+
 pid=$( ps -ef | grep -v grep | grep jenkins.war | awk '{print $2}' )
 if [[ ! -z ${pid} ]]; then
     echo "Jenkins is already running, pid=${pid}"
